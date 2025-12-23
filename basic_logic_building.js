@@ -74,8 +74,17 @@ for (let i = 1; i < arr.length; i++) {
         max = arr[i];
     }
 }
-
 // print result
 console.log("Max number is:", max);
 
-    
+
+console.log('Count number greater than 50')
+
+const numbers = [10, 55, 60, 45, 80, 30, 90];
+let count = 0;
+for(let i = 0; i<numbers.length; i++){
+    if(numbers[i]>50){
+        count ++;
+    }
+}
+console.log(count);
